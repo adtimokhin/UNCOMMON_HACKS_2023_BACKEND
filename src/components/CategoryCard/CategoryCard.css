@@ -1,0 +1,17 @@
+div.card {
+  /* bg-slate-400 border-4 border-black rounded-md */
+  background-color: rgb(24, 52, 67);
+  color: rgba(134, 134, 134, 0.8);
+  border-width: 4px;
+  border-color: black;
+  border-radius: 5%;
+  transition: all 1s ease-out;
+}
+
+div.card:hover {
+  cursor: pointer;
+  background-color: rgb(35, 89, 119);
+  color: rgba(250, 250, 250, 1);
+  transition: all 0.4s ease-out;
+}
+

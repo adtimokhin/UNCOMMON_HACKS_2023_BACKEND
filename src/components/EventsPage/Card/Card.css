@@ -1,0 +1,34 @@
+.card-event {
+  background-color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+.card-event::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  background: radial-gradient(
+    ellipse at center,
+    transparent 0%,
+    transparent 30%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+  z-index: 20;
+  transition: all 0.2s ease-in-out;
+}
+
+.card-event:hover {
+  cursor: pointer;
+  transform: scale(1.24);
+  z-index: 30;
+  border-radius: 0.5rem;
+}
+
+.card-event:hover::before {
+  background: transparent;
+  transition: all 0.2s ease-in-out;
+}

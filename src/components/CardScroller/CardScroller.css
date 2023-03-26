@@ -1,0 +1,25 @@
+div#card__scroller-container {
+    gap: 4vmin;
+}
+
+div#card__scroller-container > div {
+    transform: translateX(100%);
+}
+
+
+div#container-outer{
+    overflow: hidden;
+}
+
+div.hiding {
+    animation: hide-animation 1.2s ease-in forwards;
+  }
+  
+  @keyframes hide-animation {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-100%);
+    }
+  }

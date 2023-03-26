@@ -1,0 +1,45 @@
+#ksk {
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  overflow: hidden;
+  border-bottom: 3px solid transparent;
+  border-radius: 1px;
+
+  animation: underline-show-up 1.2s linear 0.8s forwards;
+}
+
+@keyframes underline-show-up {
+
+    from{
+        border-color: transparent;
+    }to{
+        border-color: white;
+    }
+    
+}
+
+#ksk > a {
+    animation: pop-up 0.8s ease-out forwards;
+    transition: color 0.4s ease-out;
+}
+
+#ksk > a:hover {
+    cursor: pointer;
+    transition: all 0.4s ease-out;
+    color: white;
+}
+
+@keyframes pop-up {
+    0% {
+      transform: translateY(100%);
+    }
+    80% {
+      transform: translateY(-10%);
+    }
+    100% {
+      transform: translate(0%);
+    }
+  }
+  

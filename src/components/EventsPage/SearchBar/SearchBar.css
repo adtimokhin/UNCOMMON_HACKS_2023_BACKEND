@@ -1,0 +1,8 @@
+#search-button {
+  background-image: url("/search-magnifying-glass-svgrepo-com hover.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center, 50%, 50%;
+  height: 25px;
+  width: 25px;
+}

@@ -1,0 +1,4 @@
+.category-tag:hover{
+    cursor: pointer;
+    text-decoration: line-through;
+}
