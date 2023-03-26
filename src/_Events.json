@@ -1,0 +1,60 @@
+[
+    {
+        "Category": "Physics",
+        "__id__": "8ktxWPWjRpBDC7kxMaQx",
+        "date": "06/30/2023",
+        "location": "Chicago",
+        "time": "02:00 PM"
+    },
+    {
+        "Category": "Computer Science",
+        "__id__": "AL2aUM0PAeN6Ke1tRxPF",
+        "date": "03/14/2022",
+        "location": "Chicago",
+        "time": "10:00 AM"
+    },
+    {
+        "Category": "Computer Science",
+        "__id__": "F1uNiQ1FF4AwLE5UXQXM",
+        "date": "04/29/2023",
+        "location": "Wisconsin",
+        "time": "10:00 AM"
+    },
+    {
+        "Category": "Film",
+        "__id__": "Lh7VcpYZu9WOaESbQ6Rp",
+        "date": "03/30/2023",
+        "imageUrl": "",
+        "location": "Chicago",
+        "time": "11:00 AM"
+    },
+    {
+        "Category": "Computer Science",
+        "__id__": "P6DpzZGEKhT60lOq0Wbp",
+        "date": "03/31/2023",
+        "imageUrl": "",
+        "location": "Indiana",
+        "time": "02:00 PM"
+    },
+    {
+        "Category": "Art",
+        "__id__": "TRwUffYzJwkyzl4n7YWR",
+        "date": "07/15/2023",
+        "location": "Chicago",
+        "time": "03:00 PM"
+    },
+    {
+        "Category": "Economics",
+        "__id__": "X7gZsNhtgGEI4jhWiNVS",
+        "date": "04/30/2023",
+        "location": "Chicago",
+        "time": "09:30 AM"
+    },
+    {
+        "Category": "Art",
+        "__id__": "w4qly2FKkaHmssT1EV7W",
+        "date": "05/01/2023",
+        "location": "Indiana",
+        "time": "10:00 AM"
+    }
+]
